@@ -1,0 +1,34 @@
+Suspects
+	Mrs. Peacock
+	Mrs. White
+	Professor Plum
+	Mr. Green
+	Colonel Mustard
+	Miss Scarlet
+
+Room
+	- enter
+	Kitchen
+	Dining Room
+	Hall
+	Conservatory
+	Cellar
+	Billard room
+	Lounge
+	Study
+
+
+Weapons
+	Revolver
+	Dagger
+	Lead pipe
+	Rope
+	Candlestick
+	Wrench
+
+Map
+	- next_room
+	- starting_room
+	
+Game
+	- play

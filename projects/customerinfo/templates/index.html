@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% if customer_name %}
+  New customer!
+  <br/>
+  <br/>
+  Customer Name: <b style="color: blue; font-size 3em;">{{ customer_name }}</b>
+  <br/>
+  Date of Birth: {{ dob }}
+{% else %}
+  New customer information not received.
+{% endif %}
+
+{% endblock %}

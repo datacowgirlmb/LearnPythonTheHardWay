@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>New Customer</h1>
+<h2>Enter customer information.</h2>
+
+<form action="/" method="POST" >
+  First Name: <input type="text" name="first_name">
+  <br>
+  Last Name: <input type="text" name="last_name">
+  Date of birth: <input type="date" name="dob">
+  <input type="submit">
+</form>
+
+{% endblock %}
